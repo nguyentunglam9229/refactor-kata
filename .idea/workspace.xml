@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="edfcbe0a-2e95-465b-b69b-7cd27e1a99b3" name="Default Changelist" comment="" />
+    <list default="true" id="edfcbe0a-2e95-465b-b69b-7cd27e1a99b3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/gilded_rose.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/gilded_rose.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/texttest_fixture.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/texttest_fixture.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1eLcaFjItvdKjeEjSTOnk6pxf7c" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -22,23 +26,91 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="spring.boot" />
   </component>
-  <component name="RunManager">
-    <configuration name="test:watch" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="test:watch" />
-      </scripts>
+  <component name="RunManager" selected="Jest.Gilded Rose">
+    <configuration name="Gilded Rose" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
       <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/test/gilded_rose.test.js" />
+      <test-names>
+        <test-name value="Gilded Rose" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Gilded Rose.Backstage.Quality drops to 0 after the concert" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/test/gilded_rose.test.js" />
+      <test-names>
+        <test-name value="Gilded Rose" />
+        <test-name value="Backstage" />
+        <test-name value="Quality drops to 0 after the concert" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Gilded Rose.Backstage.Quality increases by 2 when there are at most 5 days" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/test/gilded_rose.test.js" />
+      <test-names>
+        <test-name value="Gilded Rose" />
+        <test-name value="Backstage" />
+        <test-name value="Quality increases by 2 when there are at most 5 days" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Gilded Rose.general item.At the end of each day our system lowers both values for every item" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/test/gilded_rose.test.js" />
+      <test-names>
+        <test-name value="Gilded Rose" />
+        <test-name value="general item" />
+        <test-name value="At the end of each day our system lowers both values for every item" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Gilded Rose.general item.Once the sell by date has passed, Quality degrades twice as fast" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/test/gilded_rose.test.js" />
+      <test-names>
+        <test-name value="Gilded Rose" />
+        <test-name value="general item" />
+        <test-name value="Once the sell by date has passed, Quality degrades twice as fast" />
+      </test-names>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.test:watch" />
+        <item itemvalue="Jest.Gilded Rose" />
+        <item itemvalue="Jest.Gilded Rose.general item.Once the sell by date has passed, Quality degrades twice as fast" />
+        <item itemvalue="Jest.Gilded Rose.general item.At the end of each day our system lowers both values for every item" />
+        <item itemvalue="Jest.Gilded Rose.Backstage.Quality drops to 0 after the concert" />
+        <item itemvalue="Jest.Gilded Rose.Backstage.Quality increases by 2 when there are at most 5 days" />
       </list>
     </recent_temporary>
   </component>
@@ -52,7 +124,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594104374095</updated>
-      <workItem from="1594104375177" duration="1918000" />
+      <workItem from="1594104375177" duration="9765000" />
     </task>
     <servers />
   </component>
@@ -60,21 +132,69 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1567" height="269" key="GridCell.Tab.0.bottom" timestamp="1594105138085">
+    <state width="1567" height="269" key="GridCell.Tab.0.bottom" timestamp="1594114132388">
       <screen x="67" y="27" width="1613" height="1023" />
     </state>
-    <state width="1567" height="269" key="GridCell.Tab.0.bottom/67.27.1613.1023@67.27.1613.1023" timestamp="1594105138085" />
-    <state width="1567" height="269" key="GridCell.Tab.0.center" timestamp="1594105138085">
+    <state width="1567" height="269" key="GridCell.Tab.0.bottom/67.27.1613.1023@67.27.1613.1023" timestamp="1594114132388" />
+    <state width="1567" height="269" key="GridCell.Tab.0.center" timestamp="1594114132388">
       <screen x="67" y="27" width="1613" height="1023" />
     </state>
-    <state width="1567" height="269" key="GridCell.Tab.0.center/67.27.1613.1023@67.27.1613.1023" timestamp="1594105138085" />
-    <state width="1567" height="269" key="GridCell.Tab.0.left" timestamp="1594105138084">
+    <state width="1567" height="269" key="GridCell.Tab.0.center/67.27.1613.1023@67.27.1613.1023" timestamp="1594114132388" />
+    <state width="1567" height="269" key="GridCell.Tab.0.left" timestamp="1594114132387">
       <screen x="67" y="27" width="1613" height="1023" />
     </state>
-    <state width="1567" height="269" key="GridCell.Tab.0.left/67.27.1613.1023@67.27.1613.1023" timestamp="1594105138084" />
-    <state width="1567" height="269" key="GridCell.Tab.0.right" timestamp="1594105138085">
+    <state width="1567" height="269" key="GridCell.Tab.0.left/67.27.1613.1023@67.27.1613.1023" timestamp="1594114132387" />
+    <state width="1567" height="269" key="GridCell.Tab.0.right" timestamp="1594114132388">
       <screen x="67" y="27" width="1613" height="1023" />
     </state>
-    <state width="1567" height="269" key="GridCell.Tab.0.right/67.27.1613.1023@67.27.1613.1023" timestamp="1594105138085" />
+    <state width="1567" height="269" key="GridCell.Tab.0.right/67.27.1613.1023@67.27.1613.1023" timestamp="1594114132388" />
+    <state width="1567" height="332" key="GridCell.Tab.1.bottom" timestamp="1594110477422">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state width="1567" height="332" key="GridCell.Tab.1.bottom/67.27.1613.1023@67.27.1613.1023" timestamp="1594110477422" />
+    <state width="1567" height="332" key="GridCell.Tab.1.center" timestamp="1594110477422">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state width="1567" height="332" key="GridCell.Tab.1.center/67.27.1613.1023@67.27.1613.1023" timestamp="1594110477422" />
+    <state width="1567" height="332" key="GridCell.Tab.1.left" timestamp="1594110477422">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state width="1567" height="332" key="GridCell.Tab.1.left/67.27.1613.1023@67.27.1613.1023" timestamp="1594110477422" />
+    <state width="1567" height="332" key="GridCell.Tab.1.right" timestamp="1594110477422">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state width="1567" height="332" key="GridCell.Tab.1.right/67.27.1613.1023@67.27.1613.1023" timestamp="1594110477422" />
+    <state width="1567" height="332" key="GridCell.Tab.2.bottom" timestamp="1594110477425">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state width="1567" height="332" key="GridCell.Tab.2.bottom/67.27.1613.1023@67.27.1613.1023" timestamp="1594110477425" />
+    <state width="1567" height="332" key="GridCell.Tab.2.center" timestamp="1594110477422">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state width="1567" height="332" key="GridCell.Tab.2.center/67.27.1613.1023@67.27.1613.1023" timestamp="1594110477422" />
+    <state width="1567" height="332" key="GridCell.Tab.2.left" timestamp="1594110477422">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state width="1567" height="332" key="GridCell.Tab.2.left/67.27.1613.1023@67.27.1613.1023" timestamp="1594110477422" />
+    <state width="1567" height="332" key="GridCell.Tab.2.right" timestamp="1594110477423">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state width="1567" height="332" key="GridCell.Tab.2.right/67.27.1613.1023@67.27.1613.1023" timestamp="1594110477423" />
+    <state width="1567" height="332" key="GridCell.Tab.3.bottom" timestamp="1594110477425">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state width="1567" height="332" key="GridCell.Tab.3.bottom/67.27.1613.1023@67.27.1613.1023" timestamp="1594110477425" />
+    <state width="1567" height="332" key="GridCell.Tab.3.center" timestamp="1594110477425">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state width="1567" height="332" key="GridCell.Tab.3.center/67.27.1613.1023@67.27.1613.1023" timestamp="1594110477425" />
+    <state width="1567" height="332" key="GridCell.Tab.3.left" timestamp="1594110477425">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state width="1567" height="332" key="GridCell.Tab.3.left/67.27.1613.1023@67.27.1613.1023" timestamp="1594110477425" />
+    <state width="1567" height="332" key="GridCell.Tab.3.right" timestamp="1594110477425">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state width="1567" height="332" key="GridCell.Tab.3.right/67.27.1613.1023@67.27.1613.1023" timestamp="1594110477425" />
   </component>
 </project>
