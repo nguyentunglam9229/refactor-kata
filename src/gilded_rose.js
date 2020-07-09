@@ -1,3 +1,5 @@
+let Sulfuras =  require('./Sulfuras')
+let AgedBrie =  require('./AgedBrie')
 class Item {
     constructor(name, sellIn, quality) {
         this.name = name;
@@ -63,6 +65,17 @@ class Shop {
 
     isLengendaryItem(item) {
         return item.name === 'Sulfuras, Hand of Ragnaros';
+    }
+
+    itemClassify(item) {
+        switch (item.name) {
+            case 'Sulfuras, Hand of Ragnaros':
+                return new Sulfuras(item);
+            case 'Aged Brie':
+                return new AgedBrie(item);
+            default:
+                return item;
+        }
     }
 }
 
