@@ -10,7 +10,7 @@ class CommonItem {
 
     updateQuality() {
         if(this.item.quality > this.MIN_QUALITY && this.item.quality < this.MAX_QUALITY) {
-            this.item.quality = this.item.quality + this.getQualityDecayRate();
+            this.item.quality = Math.max(this.MIN_QUALITY, Math.min(this.MAX_QUALITY, this.item.quality + this.getQualityDecayRate()))
         }
     }
 

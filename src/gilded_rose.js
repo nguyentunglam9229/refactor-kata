@@ -2,6 +2,7 @@ let Sulfuras = require('./Sulfuras')
 let AgedBrie = require('./AgedBrie')
 let Backstage = require('./Backstage')
 let CommonItem = require('./CommonItem')
+let Conjured = require('./Conjured')
 class Item {
     constructor(name, sellIn, quality) {
         this.name = name;
@@ -21,7 +22,6 @@ class Shop {
                 item.updateSellIn();
                 item.updateQuality()
             })
-
         return this.items;
     }
 
@@ -33,6 +33,8 @@ class Shop {
                 return new AgedBrie(item);
             case 'Backstage passes to a TAFKAL80ETC concert':
                 return new Backstage(item);
+            case 'Conjured Mana Cake':
+                return new Conjured(item);
             default:
                 return new CommonItem(item);
         }
